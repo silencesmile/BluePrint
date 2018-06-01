@@ -25,10 +25,6 @@ def detail():
 def list():
     return 'Hello list!'
 
-@app.route("/github")
-def github():
-    return "github"
-
 if __name__ == '__main__':
     print(app.url_map)
     app.run(debug=True ,port=5556)
